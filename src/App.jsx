@@ -1247,7 +1247,7 @@ function HelpScreen() {
    PANEL DE ORGANIZADOR (ADMIN)
    ============================================================================ */
 function AdminDashboard(props) {
-  const { events, options, wagers, users, combos, onSaveEvent, onDeleteEvent, onCloseEvent, onDeclareWinner } = props;
+  const { events, options, wagers, users, combos, grants, onSaveEvent, onDeleteEvent, onCloseEvent, onDeclareWinner } = props;
   const [tab, setTab] = useState('resumen');
   const [editingEvent, setEditingEvent] = useState(null); // null | 'new' | event object
   const [viewEventId, setViewEventId] = useState(null);
